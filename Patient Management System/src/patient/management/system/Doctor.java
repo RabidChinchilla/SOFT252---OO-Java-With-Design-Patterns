@@ -11,6 +11,10 @@ package patient.management.system;
  */
 public class Doctor extends Users implements ICreateAppointments{
     
+    public Doctor(String ID, String password){
+        
+    }
+    
     public void viewAppointments(){
         
     }

@@ -11,6 +11,11 @@ package patient.management.system;
  */
 public class Secretary extends Users implements ICreateAppointments{
     
+    public Secretary(String ID, String password){
+        this.ID = ID;
+        this.password = password;
+    }
+    
     public void approvePatientAccount(){
         
     }
@@ -33,5 +38,10 @@ public class Secretary extends Users implements ICreateAppointments{
     
     public void approvePatientAccountRemoval(){
         
+    }
+
+    @Override
+    public void createAppointment() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

@@ -12,7 +12,8 @@ package patient.management.system;
 public class Patient extends Users implements IViewRatings{
     
     public Patient(String ID, String password){
-        
+        this.ID = ID;
+        this.password = password;
     }
     
     public void requestAccountCreation(){

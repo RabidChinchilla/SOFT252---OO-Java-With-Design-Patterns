@@ -11,6 +11,11 @@ package patient.management.system;
  */
 public class Administrator extends Users implements IViewRatings{
     
+    public Administrator(String ID, String password){
+        this.ID = ID;
+        this.password = password;
+    }
+    
     public void createAccount(){
         
     }
