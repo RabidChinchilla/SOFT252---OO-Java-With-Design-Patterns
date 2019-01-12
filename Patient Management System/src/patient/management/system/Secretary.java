@@ -9,6 +9,33 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Secretary {
+public class Secretary extends Users{
     
+    public void approvePatientAccount(){
+        
+    }
+    
+    public void recieveAppointmentRequests(){
+        
+    }
+    
+    public void createAppointment(){
+        
+    }
+    
+    public void giveMedicines(){
+        
+    }
+    
+    public void orderMedicine(){
+        
+    }
+    
+    public void removePatient(){
+        
+    }
+    
+    public void approvePatientAccountRemoval(){
+        
+    }
 }

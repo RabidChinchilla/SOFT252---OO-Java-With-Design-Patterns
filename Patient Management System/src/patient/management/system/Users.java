@@ -11,16 +11,15 @@ package patient.management.system;
  */
 public class Users {
     
-    protected userType userType;
     protected String ID = "";
     protected String password = "";
-    
-    public user(String ID, String password){
-        
+
+    public String getID() {
+        return ID;
     }
-    
-    public userType getUserType(){
-        return userType;
+
+    public String getPassword() {
+        return password;
     }
     
     

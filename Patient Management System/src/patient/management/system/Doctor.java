@@ -9,6 +9,29 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Doctor {
+public class Doctor extends Users{
     
+    public void viewAppointments(){
+        
+    }
+    
+    public void makeNotes(){
+        
+    }
+    
+    public void viewPatientHistory(){
+        
+    }
+    
+    public void createFutureAppointment(){
+        
+    }
+    
+    public void prescribeMedicine(){
+        
+    }
+    
+    public void requestMedicines(){
+        
+    }
 }

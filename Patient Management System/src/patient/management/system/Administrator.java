@@ -9,6 +9,33 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Administrator {
+public class Administrator extends Users{
     
+    public void createAccount(){
+        
+    }
+    
+    public void createDoctorAccount(){
+        
+    }
+    
+    public void removeDoctorAccount(){
+        
+    }
+    
+    public void createSecretaryAccount(){
+        
+    }
+    
+    public void removeSecretaryAccount(){
+        
+    }
+    
+    public void viewDoctorRatings(){
+        
+    }
+    
+    public void sendFeedback(){
+        
+    }
 }
