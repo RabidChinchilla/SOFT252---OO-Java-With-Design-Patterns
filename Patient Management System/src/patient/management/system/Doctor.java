@@ -9,7 +9,7 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Doctor extends Users{
+public class Doctor extends Users implements ICreateAppointments{
     
     public void viewAppointments(){
         
@@ -23,15 +23,16 @@ public class Doctor extends Users{
         
     }
     
-    public void createFutureAppointment(){
-        
-    }
-    
     public void prescribeMedicine(){
         
     }
     
     public void requestMedicines(){
         
+    }
+
+    @Override
+    public void createAppointment() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

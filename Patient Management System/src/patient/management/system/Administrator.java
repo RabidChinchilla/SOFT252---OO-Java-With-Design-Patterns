@@ -9,7 +9,7 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Administrator extends Users{
+public class Administrator extends Users implements IViewRatings{
     
     public void createAccount(){
         
@@ -31,11 +31,12 @@ public class Administrator extends Users{
         
     }
     
-    public void viewDoctorRatings(){
-        
-    }
-    
     public void sendFeedback(){
         
+    }
+
+    @Override
+    public void viewRatings() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

@@ -9,17 +9,13 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Secretary extends Users{
+public class Secretary extends Users implements ICreateAppointments{
     
     public void approvePatientAccount(){
         
     }
     
     public void recieveAppointmentRequests(){
-        
-    }
-    
-    public void createAppointment(){
         
     }
     

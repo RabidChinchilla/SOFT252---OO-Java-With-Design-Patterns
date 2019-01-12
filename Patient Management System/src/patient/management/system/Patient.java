@@ -9,7 +9,7 @@ package patient.management.system;
  *
  * @author Ben G
  */
-public class Patient extends Users{
+public class Patient extends Users implements IViewRatings{
     
     public Patient(String ID, String password){
         
@@ -20,10 +20,6 @@ public class Patient extends Users{
     }
     
     public void provideFeedback(){
-        
-    }
-    
-    public void viewRatings(){
         
     }
     
@@ -45,5 +41,10 @@ public class Patient extends Users{
     
     public void requestAccountTermination(){
         
+    }
+
+    @Override
+    public void viewRatings() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
