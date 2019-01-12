@@ -27,17 +27,78 @@ public class GUIDoctor extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        btnViewAppointments = new javax.swing.JButton();
+        btnMakeNotes = new javax.swing.JButton();
+        btnCheckHistory = new javax.swing.JButton();
+        btnCreateAppointment = new javax.swing.JButton();
+        btnPrescribeMedicine = new javax.swing.JButton();
+        btnRequestMedicine = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        jLabel1.setText("Doctor");
+
+        btnViewAppointments.setText("View Appointments");
+
+        btnMakeNotes.setText("Make Notes");
+
+        btnCheckHistory.setText("Check Patient History");
+
+        btnCreateAppointment.setText("Create follow up appointment");
+
+        btnPrescribeMedicine.setText("Prescribe Medicine");
+
+        btnRequestMedicine.setText("Request Medicine");
+
+        jLabel2.setText("Appointments");
+
+        jLabel3.setText("Patient History");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel1)
+                    .addComponent(btnCreateAppointment, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnCheckHistory, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnMakeNotes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnViewAppointments, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnPrescribeMedicine, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnRequestMedicine, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(208, 208, 208)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 314, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(84, 84, 84))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3))
+                .addGap(36, 36, 36)
+                .addComponent(btnViewAppointments)
+                .addGap(18, 18, 18)
+                .addComponent(btnMakeNotes)
+                .addGap(18, 18, 18)
+                .addComponent(btnCheckHistory)
+                .addGap(18, 18, 18)
+                .addComponent(btnCreateAppointment)
+                .addGap(18, 18, 18)
+                .addComponent(btnPrescribeMedicine)
+                .addGap(18, 18, 18)
+                .addComponent(btnRequestMedicine)
+                .addContainerGap(114, Short.MAX_VALUE))
         );
 
         pack();
@@ -79,5 +140,14 @@ public class GUIDoctor extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnCheckHistory;
+    private javax.swing.JButton btnCreateAppointment;
+    private javax.swing.JButton btnMakeNotes;
+    private javax.swing.JButton btnPrescribeMedicine;
+    private javax.swing.JButton btnRequestMedicine;
+    private javax.swing.JButton btnViewAppointments;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }
